@@ -12,3 +12,8 @@ var Fruits = [
     {juice: "passion"},
     function() {return "drink";}
 ];
+
+//member access
+console.log(car.speed);
+// computed member access
+console.log(car.piston[0].maker);
